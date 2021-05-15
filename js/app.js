@@ -84,6 +84,7 @@ search.addEventListener("input", function () {
     // console.log(cardTxt);
   })
 })
+<<<<<<< HEAD
 
 /*
 Further Features:
@@ -92,3 +93,5 @@ Further Features:
 3. Separate notes by user
 4. Sync and host to web server
 */
+=======
+>>>>>>> b117770ab2ce465803ac89e5c781a68605e09b01
