@@ -6,8 +6,8 @@ showNotes();
 let addBtn = document.getElementById("addBtn");
 addBtn.addEventListener("click", function (e) {
   let addTxt = document.getElementById("addTxt");
-  if (addTxt.value == "") {
-    alert("Empty note");
+  if (addTxt.value == '') {
+    alert("please enter value");
   } else {
     let notes = localStorage.getItem("notes");
     if (notes == null) {
@@ -19,6 +19,7 @@ addBtn.addEventListener("click", function (e) {
     localStorage.setItem("notes", JSON.stringify(notesObj));
     addTxt.value = "";
   }
+
   //   console.log(notesObj);
   showNotes();
 });
@@ -84,7 +85,6 @@ search.addEventListener("input", function () {
     // console.log(cardTxt);
   })
 })
-<<<<<<< HEAD
 
 /*
 Further Features:
@@ -93,5 +93,3 @@ Further Features:
 3. Separate notes by user
 4. Sync and host to web server
 */
-=======
->>>>>>> b117770ab2ce465803ac89e5c781a68605e09b01
