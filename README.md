@@ -9,7 +9,6 @@ You can access the live demo of this app hosted on GitHub Pages [here](https://b
 ## Features
 
 - Add new notes
-- Edit existing notes
 - Delete notes
 
 ## Usage
